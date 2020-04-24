@@ -8,7 +8,14 @@ public class HomePageController {
 
     @RequestMapping("/")
     public String homePage() {
+    	System.out.println("TEst Controller");
       return "welcome";
+    }
+    
+    @RequestMapping("/get")
+    public String homeGetPage() {
+    	System.out.println("TEst get Controller");
+      return "welcome.jsp";
     }
 
 }
