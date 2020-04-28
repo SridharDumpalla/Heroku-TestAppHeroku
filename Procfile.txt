@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.example.TestAppHeroku.TestAppHerokuApplication
+web: java $JAVA_OPTS -jar  target/TestAppHeroku-0.0.1-SNAPSHOT.jar com.example.TestAppHeroku.TestAppHerokuApplication --port $PORT target/*.jar
