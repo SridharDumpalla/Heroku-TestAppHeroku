@@ -14,7 +14,7 @@
 	<servlet-mapping>
 		<servlet-name>next</servlet-name>
 		<url-pattern>/next</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping>  
 
 
 
