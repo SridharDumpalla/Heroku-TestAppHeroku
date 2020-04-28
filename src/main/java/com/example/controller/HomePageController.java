@@ -15,7 +15,7 @@ public class HomePageController {
     @RequestMapping("/get")
     public String homeGetPage() {
     	System.out.println("TEst get Controller");
-      return "welcome.jsp";
+      return "welcome";
     }
 
 }
